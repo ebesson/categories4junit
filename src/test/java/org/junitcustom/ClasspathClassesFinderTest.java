@@ -24,7 +24,7 @@ public class ClasspathClassesFinderTest {
     public void doitRetournerListeVideSiAucuneAnnotationTrouvee() {
 
         // Quand j'ai un package qui existe avec une annotation qui n'est pas utilisée
-        String packageName = "fr.pagesjaunes.testsautos.socle.technique.categories.data";
+        String packageName = "org.junitcustom.data";
         Class<MonAnnnotationNonUtilisee> annotation = MonAnnnotationNonUtilisee.class;
 
         // Si je scanne mon package avec mon annotation
@@ -40,7 +40,7 @@ public class ClasspathClassesFinderTest {
     @Test
     public void doitRetournerUneSuiteNonVideSiAnnotationTrouvee() {
         // Quand j'ai un package qui existe avec une annotation qui est pas utilisée
-        String packageName = "fr.pagesjaunes.testsautos.socle.technique.categories.data";
+        String packageName = "org.junitcustom.data";
         Class<Category> annotation = Category.class;
 
         // Si je scanne mon package avec mon annotation
