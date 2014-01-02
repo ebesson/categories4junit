@@ -3,7 +3,7 @@
  *
  * @author gboullanger
  */
-package org.junitcustom.data.annotation;
+package org.categories4junit.data.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -12,6 +12,6 @@ import java.lang.annotation.RetentionPolicy;
  * @author ebesson
  */
 @Retention(RetentionPolicy.RUNTIME)
-public @interface LevelLow {
+public @interface MonAnnnotationNonUtilisee {
 
 }

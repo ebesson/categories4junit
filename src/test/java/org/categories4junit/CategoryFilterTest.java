@@ -1,15 +1,17 @@
-package org.junitcustom;
+package org.categories4junit;
 
 import java.util.HashSet;
 import java.util.Set;
 
+import org.categories4junit.CategoryFilter;
+import org.categories4junit.data.ClasseA;
+import org.categories4junit.data.annotation.MonAnnnotation;
+import org.categories4junit.data.annotation.MonAnnnotationNonUtilisee;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.Description;
 
-import org.junitcustom.data.ClasseA;
-import org.junitcustom.data.annotation.MonAnnnotation;
-import org.junitcustom.data.annotation.MonAnnnotationNonUtilisee;
+
 
 /**
  * Classe de tests pour la classe utilitaire {@link CategoryFilter}.

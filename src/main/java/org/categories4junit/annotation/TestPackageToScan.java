@@ -1,4 +1,4 @@
-package org.junitcustom;
+package org.categories4junit.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

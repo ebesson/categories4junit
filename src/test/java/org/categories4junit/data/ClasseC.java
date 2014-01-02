@@ -3,13 +3,13 @@
  *
  * @author gboullanger
  */
-package org.junitcustom.data;
+package org.categories4junit.data;
 
+import org.categories4junit.data.annotation.LevelLow;
+import org.categories4junit.data.annotation.MonAnnnotation;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
-import org.junitcustom.data.annotation.LevelLow;
-import org.junitcustom.data.annotation.MonAnnnotation;
 
 /**
  * @author ebesson

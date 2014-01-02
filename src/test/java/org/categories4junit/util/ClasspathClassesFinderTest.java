@@ -2,13 +2,13 @@
  *
  * @author ebesson
  */
-package org.junitcustom;
+package org.categories4junit.util;
 
+import org.categories4junit.data.annotation.MonAnnnotationNonUtilisee;
+import org.categories4junit.util.ClasspathClassesFinder;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.junitcustom.data.annotation.MonAnnnotationNonUtilisee;
-
 
 /**
  * Classe de tests pour la classe utilitaire @link ClasspathClassesFinder.
@@ -40,7 +40,7 @@ public class ClasspathClassesFinderTest {
     @Test
     public void doitRetournerUneSuiteNonVideSiAnnotationTrouvee() {
         // Quand j'ai un package qui existe avec une annotation qui est pas utilisée
-        String packageName = "org.junitcustom.data";
+        String packageName = "org.categories4junit.data";
         Class<Category> annotation = Category.class;
 
         // Si je scanne mon package avec mon annotation

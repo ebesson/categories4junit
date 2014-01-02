@@ -1,6 +1,4 @@
-package org.junitcustom;
-
-import org.junit.runner.manipulation.Filter;
+package org.categories4junit;
 
 import java.util.Collections;
 import java.util.HashSet;

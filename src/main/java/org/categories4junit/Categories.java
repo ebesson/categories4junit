@@ -1,9 +1,13 @@
-package org.junitcustom;
+package org.categories4junit;
 
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import org.categories4junit.annotation.IncludeCategory;
+import org.categories4junit.annotation.TestPackageToScan;
+import org.categories4junit.util.ClasspathClassesFinder;
 import org.junit.runners.Suite;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.Description;

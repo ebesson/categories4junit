@@ -1,4 +1,4 @@
-package org.junitcustom;
+package org.categories4junit.util;
 
 import java.io.File;
 import java.io.IOException;

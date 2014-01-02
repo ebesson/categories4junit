@@ -3,17 +3,19 @@
  *
  * @author gboullanger
  */
-package org.junitcustom;
+package org.categories4junit;
 
 import java.util.List;
 
+import org.categories4junit.Categories;
+import org.categories4junit.data.suite.MaSuiteMonAnnotationNonUtilisee;
+import org.categories4junit.data.suite.MaSuiteMonAnnotationOuLevelHigh;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.internal.builders.AllDefaultPossibilitiesBuilder;
 import org.junit.runner.Runner;
 import org.junit.runners.model.InitializationError;
-import org.junitcustom.data.suite.MaSuiteMonAnnotationNonUtilisee;
-import org.junitcustom.data.suite.MaSuiteMonAnnotationOuLevelHigh;
+
 
 
 /**

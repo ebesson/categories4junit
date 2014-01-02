@@ -1,4 +1,4 @@
-package org.junitcustom;
+package org.categories4junit.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -28,8 +28,8 @@ public @interface IncludeCategory {
      * Détermine le lien logique utilisé entre les catégories pour lancer les tests.
      * Deux operateurs sont défini :
      * <ul>
-     * <li>ou : {@link org.junitcustom.IncludeCategory.OR}</li>
-     * <li>et : {@link org.junitcustom.IncludeCategory.AND}</li>
+     * <li>ou : {@link org.categories4junit.IncludeCategory.OR}</li>
+     * <li>et : {@link org.categories4junit.IncludeCategory.AND}</li>
      * </ul>
      */
     boolean operator() default OR;
